@@ -36,7 +36,7 @@ export default function Weather(){
         <div style={{padding:"2rem", textAlign:"center"}}>
             <form onSubmit={handleSubmit} >
                 <input 
-                    
+                    type="text"
                     placeholder="Enter city name"
                     name="city"
                     value={city}
